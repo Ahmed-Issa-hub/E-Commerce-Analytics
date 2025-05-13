@@ -15,14 +15,14 @@ An interactive web-based dashboard for exploring sales data, customer behavior, 
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tools & Technologies Used
 
-- **Python 3**
-- **Pandas** – Data manipulation
-- **Seaborn & Matplotlib** – Data visualization (exploratory analysis)
-- **Plotly** – Interactive plots
-- **Streamlit** – Web dashboard framework
-- **Jupyter Notebook** – Development and exploration
+- **Python 3.10+**
+- **Pandas** – for data cleaning and manipulation
+- **Matplotlib & Seaborn** – for EDA visualizations
+- **Plotly** – for interactive visualizations
+- **Streamlit** – for building the web dashboard
+- **Jupyter Notebook** – for exploration and code development
 
 ---
 
