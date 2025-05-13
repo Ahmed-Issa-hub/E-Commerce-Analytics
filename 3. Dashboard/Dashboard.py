@@ -5,16 +5,16 @@ import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# إعداد واجهة Streamlit
+#  Streamlit page config
 st.set_page_config(layout="wide", page_title="E-Commerce Dashboard", page_icon="📊")
 st.title("📊 E-Commerce Analytics Dashboard")
 
-# تحميل البيانات
+#  Loading Data
 @st.cache_data
 def load_data():
-    df = pd.read_excel("Online Retail.xlsx", engine='openpyxl')
+    df = pd.read_excel('../1. Data/Online Retail.xlsx', engine='openpyxl')
     
-    # عمليات التنظيف والتحويل (مثل ما في الNotebook)
+    # Data Cleaning
     df = df.dropna(subset=['Description'])
     df = df[df['UnitPrice'] > 0]
     
@@ -37,7 +37,7 @@ def load_data():
 
 df = load_data()
 
-# تحضير البيانات للتحليلات
+# Data Preparation for Analysis  
 def prepare_data(df):
     # Revenue by Year
     revenue_by_year = df.groupby('Year')['Revenue'].sum().reset_index()
@@ -82,7 +82,7 @@ data = prepare_data(df)
 
 
 
-# شريط جانبي للتصفح
+# Navigation sidebar
 st.sidebar.title("Navigation")
 section = st.sidebar.radio("Go to", ["Overview", "Customer Analysis", "Product Analysis", "Market Analysis", "Billing & Returns"])
 
@@ -231,7 +231,7 @@ elif section == "Billing & Returns":
                       labels={'amount': 'Invoice Amount'})
     st.plotly_chart(fig, use_container_width=True)
 
-# تذييل الصفحة
+# Page Footer 
 st.sidebar.markdown("---")
 st.sidebar.markdown("Built with Streamlit")
 st.sidebar.markdown("Data Source: Online Retail Dataset")
