@@ -47,7 +47,10 @@ An interactive web-based dashboard for exploring sales data, customer behavior, 
 ![output5](https://github.com/user-attachments/assets/74c400e7-17fe-45ec-a88d-e96aca24696d)
 ![output6](https://github.com/user-attachments/assets/f86079a0-207b-4c0f-89b4-fcc2b36b535d)
 
+---
 
+👤 Let's Connect!
+   [LinkedIn](https://www.linkedin.com/in/ahmed-eissa-837691a1/) 
 
 
 
