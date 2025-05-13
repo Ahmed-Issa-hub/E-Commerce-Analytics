@@ -29,7 +29,7 @@ An interactive web-based dashboard for exploring sales data, customer behavior, 
 ## 💻 How to Run
 
 ### 1. Install Dependencies
-       pip install -r 4. Requirements.txt
+       pip install -r "4. Requirements.txt"
 
 
 ### 2. Run Streamlit Dashboard
