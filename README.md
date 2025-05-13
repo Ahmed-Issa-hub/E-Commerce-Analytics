@@ -50,6 +50,7 @@ An interactive web-based dashboard for exploring sales data, customer behavior, 
 ---
 
 👤 Let's Connect!
+
    [LinkedIn](https://www.linkedin.com/in/ahmed-eissa-837691a1/) 
 
 
