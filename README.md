@@ -26,20 +26,6 @@ An interactive web-based dashboard for exploring sales data, customer behavior, 
 
 ---
 
-## 📂 Project Structure
-├── Dashboard.py # Main Streamlit app
-├── code sheet.ipynb # Jupyter notebook with all analysis and preprocessing
-├── data/
-│ ├── cleaned_data.csv
-│ ├── rfm.csv
-│ ├── returns_summary.csv
-│ └── ...
-├── README.md
-└── requirements.txt # Python dependencies
-
-
----
-
 ## 💻 How to Run
 
 ### 1. Install Dependencies
