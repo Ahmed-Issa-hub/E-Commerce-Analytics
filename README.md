@@ -40,10 +40,15 @@ An interactive web-based dashboard for exploring sales data, customer behavior, 
 
 ---
 
-## 💻 How to Run the Dashboard
+## 💻 How to Run
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/sales-dashboard-streamlit.git
-   cd sales-dashboard-streamlit
+### 1. Install Dependencies
+       pip install -r requirements.txt
+
+
+### 2. Run Streamlit Dashboard
+       streamlit run dashboard/dashboard.py
+
+
+  
 
